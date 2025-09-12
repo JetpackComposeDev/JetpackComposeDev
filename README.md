@@ -1,16 +1,67 @@
-## Hi there 👋
+# Jetpack Compose & KMP Guide
 
-<!--
-**JetpackComposeDev/JetpackComposeDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.20-blue.svg)](https://kotlinlang.org/)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-1.6.0-brightgreen.svg)](https://developer.android.com/jetpack/compose)
+[![KMP](https://img.shields.io/badge/Kotlin%20Multiplatform-1.9.20-blueviolet.svg)](https://kotlinlang.org/docs/multiplatform.html)
 
-Here are some ideas to get you started:
+A beginner-friendly Android learning roadmap app built with **Jetpack Compose** and **Kotlin Multiplatform (KMP)**, offering resources for mastering Android development. Explore categories like Beginners, Experienced, Code Labs, Compose Samples, Material Components, Guides, KMP, Books, and Tips.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Banner](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWJczaiH2fvhkG672jX3QVBLaLQBizhNaMv5FSCp06JOHIisaVmLusYoK_BMyt0rPgPusbYFEltHF6rp8om8p9uYOjry9Cakv0SkEobui4P36idjazkrJOulxKrPG559SkcOPBkep0AuLLBiTe6Zkg8nhDWKdTnEAyHLcdYqXShHCehbAVMhIicP1-ils/s16000/01.png)
+
+## Features
+
+- **Beginners**: Learn Kotlin basics, composable functions, and structured learning paths.
+- **Experienced**: Dive into state management, architecture, adaptive UIs, and accessibility.
+- **Code Labs**: Hands-on tutorials with real-world examples.
+- **Compose Samples**: Explore official samples like JetNews, Jetchat, and Jetsnack.
+- **Material Components**: Master buttons, cards, text fields, and navigation bars.
+- **Guides**: Step-by-step articles for simplified learning.
+- **Kotlin Multiplatform (KMP)**: Share code across Android, iOS, desktop, and web.
+- **Tips**: Curated resources and practical advice.
+
+- **No Ads, Free Forever**: Smooth, responsive experience with Material Design 3.
+
+## Demo & Source Code
+
+[![View Live Demo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyxwAdLbYrq_XlngTsbSznO2vgtzrPQOuGFpRH618P9Z0Popp06BMIp7HTkxLW17PWW2aT3lIM3JWYOTlqk-U1HDiY8WHxOTXjqplD0E3c3bzt8xgvaSwOl7i8HJg0peWRCZGZ_mq-umBpJ_j5_p0jGnaclj42wNtWU0JkqtCjJn8FwWQusmZ6j8agPlw/s320/view-demo-button_592324-17211.png)](https://www.boltuix.com/2025/09/jetpack-compose-and-kmp-guide-free.html)
+
+
+## Project Structure
+
+```
+composeApp/
+├── .gradle/
+├── build/
+├── release/
+├── src/
+│   ├── androidMain/
+│   ├── commonMain/
+│   ├── iosMain/
+│   ├── jvmMain/
+│   ├── main/
+│   ├── wasmJsMain/
+├── build.gradle.kts
+```
+
+Key files:
+- `App.kt`: Main entry point with theme and typography setup.
+- `CubicBezierCardShape.kt`: Custom card shape with cubic bezier curves.
+- `DataSource.kt`: Data models and sample resources.
+- `GridItemCard.kt`: Composable for rendering grid item cards.
+- `Platform.kt`: Platform-specific abstractions for KMP.
+- `ResponsiveGridScreen.kt`: Main screen with responsive grid layout.
+
+![Banner](https://github.com/BoltUIX/Jetpack-Compose-and-KMP-Guide/blob/main/screens/02.png)
+![Banner](https://github.com/BoltUIX/Jetpack-Compose-and-KMP-Guide/blob/main/screens/04.png)
+![Banner](https://github.com/BoltUIX/Jetpack-Compose-and-KMP-Guide/blob/main/screens/05.png)
+
+## Usage
+
+- Browse resources by category or search topics.
+- Click cards to access tutorials, samples, or guides.
+- Explore KMP code-sharing examples for multiplatform development.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
